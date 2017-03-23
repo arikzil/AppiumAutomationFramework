@@ -12,6 +12,8 @@ public class UiSelector {
         return this;
     }
 
+
+
     public UiSelector className(String value){
         locator += ".className(\""+value+"\")";
         return this;
@@ -75,4 +77,5 @@ public class UiSelector {
     public UiObject makeUiObject(){
         return new UiObject(locator);
     }
+
 }

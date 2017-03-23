@@ -12,7 +12,7 @@ public class UiObject {
 
     private String locator;
 
-    UiObject(String locator){
+    public UiObject(String locator){
         this.locator = locator;
         MyLogger.log.debug("Created new UiObject: "+this.locator);
     }

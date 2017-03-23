@@ -29,4 +29,6 @@ public class Functionality extends TestManager {
         Assert.assertTrue(speedtest.home.uiObject.testAgainButton().exists());
         Assert.assertTrue(speedtest.home.uiObject.logo().exists());
     }
+
+
 }
